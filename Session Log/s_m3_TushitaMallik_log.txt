@@ -1,0 +1,803 @@
+2022-07-14 16:26:43 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6014 : Initializing session [s_m3_TushitaMallik_2153714] at [Thu Jul 14 16:26:43 2022].
+2022-07-14 16:26:43 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6683 : Repository Name: [Repo_Academy]
+2022-07-14 16:26:43 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6684 : Server Name: [INT_RepoAcademy]
+2022-07-14 16:26:43 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6686 : Folder: [ProjectMentor]
+2022-07-14 16:26:43 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6685 : Workflow: [wf_final_2153714] Run Instance Name: [] Run Id: [52]
+2022-07-14 16:26:43 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6101 : Mapping name: m3_TushitaMallik_2153714 [version CheckedOut].
+2022-07-14 16:26:43 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2022-07-14 16:26:43 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2022-07-14 16:26:43 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2022-07-14 16:26:43 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6703 : Session [s_m3_TushitaMallik_2153714] is run by 64-bit Integration Service  [node01], version [10.1.0], build [0610].
+2022-07-14 16:26:43 : INFO : (560 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2022-07-14 16:26:43 : INFO : (560 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24058 : Running Partition Group [1].
+2022-07-14 16:26:43 : INFO : (560 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2022-07-14 16:26:43 : INFO : (560 | MONITOR) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2022-07-14 16:26:43 : INFO : (560 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2022-07-14 16:26:43 : INFO : (560 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24003 : Initializing session run.
+2022-07-14 16:26:43 : INFO : (560 | MAPPING) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2022-07-14 16:26:43 : INFO : (560 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1569 : Server Mode: [ASCII]
+2022-07-14 16:26:43 : INFO : (560 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2022-07-14 16:26:43 : INFO : (560 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6151 : The session sort order is [Binary].
+2022-07-14 16:26:43 : INFO : (560 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6156 : Using low precision processing.
+2022-07-14 16:26:43 : INFO : (560 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2022-07-14 16:26:43 : INFO : (560 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2022-07-14 16:26:43 : INFO : (560 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6307 : DTM error log disabled. 
+2022-07-14 16:26:43 : INFO : (560 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7022 : TShmWriter: Initialized
+2022-07-14 16:26:43 : INFO : (560 | MAPPING) : (IS | INT_RepoAcademy) : node01 : DBG_21694 : JNRTRANS Partition [0]: Index cache size = [178956970], Data cache size = [357913940]
+2022-07-14 16:26:43 : INFO : (560 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TT_11098 : The Joiner transformation [JNRTRANS] is configured with the join algorithm: Nested-Loop.
+2022-07-14 16:26:43 : INFO : (560 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6007 : DTM initialized successfully for session [s_m3_TushitaMallik_2153714]
+2022-07-14 16:26:43 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2022-07-14 16:26:43 : INFO : (560 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Thu Jul 14 16:26:43 2022)
+2022-07-14 16:26:43 : INFO : (560 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2022-07-14 16:26:43 : INFO : (560 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Thu Jul 14 16:26:43 2022)
+2022-07-14 16:26:43 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24006 : Starting data movement.
+2022-07-14 16:26:43 : INFO : (560 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6660 : Total Buffer Pool size is 1829472 bytes and Block size is 65536 bytes.
+2022-07-14 16:26:43 : INFO : (560 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [5].
+2022-07-14 16:26:43 : INFO : (560 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2022-07-14 16:26:43 : INFO : (560 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : FR_3118 : source [SQ_department] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2022-07-14 16:26:43 : INFO : (560 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2022-07-14 16:26:43 : INFO : (560 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16003 : Initialization completed successfully.
+2022-07-14 16:26:43 : INFO : (560 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [6].
+2022-07-14 16:26:43 : INFO : (560 | READER_1_2_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [READER_1_2_1] has the ID [7].
+2022-07-14 16:26:43 : INFO : (560 | READER_1_2_1) : (IS | INT_RepoAcademy) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2022-07-14 16:26:43 : INFO : (560 | READER_1_2_1) : (IS | INT_RepoAcademy) : node01 : FR_3118 : source [SQ_employee] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2022-07-14 16:26:43 : INFO : (560 | READER_1_2_1) : (IS | INT_RepoAcademy) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2022-07-14 16:26:43 : INFO : (560 | READER_1_2_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16003 : Initialization completed successfully.
+2022-07-14 16:26:43 : INFO : (560 | TRANSF_1_2_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [TRANSF_1_2_1] has the ID [8].
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [9].
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8147 : Writer: Target is database [orcl1], user [infoadmin], bulk mode [OFF]
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8397 : Appending output data to file [C:\Informatica\10.1.0\server\infa_shared\BadFiles\tgt_final1.bad] (initial size [1670]).
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8124 : Target Table tgt_final :SQL INSERT statement:
+INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8124 : Target Table tgt_final :SQL UPDATE statement:
+UPDATE tgt_final SET FIRST_NAME = ?, LAST_NAME = ?, SALARY = ?, DEPARTMENT_ID = ?, DEPARTMENT_NAME = ? WHERE EMPLOYEE_ID = ?
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8124 : Target Table tgt_final :SQL DELETE statement:
+DELETE FROM tgt_final WHERE EMPLOYEE_ID = ?
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [tgt_final]
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8003 : Writer initialization complete.
+2022-07-14 16:26:43 : INFO : (560 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16007 : Reader run started.
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8005 : Writer run started.
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Thu Jul 14 16:26:43 2022
+
+Target tables:
+
+     tgt_final
+
+
+2022-07-14 16:26:43 : INFO : (560 | READER_1_2_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16007 : Reader run started.
+2022-07-14 16:26:43 : INFO : (560 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : FR_3076 : Skipped over [1] lines.
+2022-07-14 16:26:43 : INFO : (560 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [C:\Informatica\10.1.0\server\infa_shared\SrcFiles\department.csv] : (Thu Jul 14 16:26:43 2022)
+2022-07-14 16:26:43 : INFO : (560 | READER_1_2_1) : (IS | INT_RepoAcademy) : node01 : FR_3076 : Skipped over [1] lines.
+2022-07-14 16:26:43 : INFO : (560 | READER_1_2_1) : (IS | INT_RepoAcademy) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [C:\Informatica\10.1.0\server\infa_shared\SrcFiles\employee.csv] : (Thu Jul 14 16:26:43 2022)
+2022-07-14 16:26:43 : INFO : (560 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16019 : Read [50] rows, read [0] error rows for source table [department] instance name [department]
+2022-07-14 16:26:43 : INFO : (560 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16008 : Reader run completed.
+2022-07-14 16:26:43 : INFO : (560 | READER_1_2_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16019 : Read [30] rows, read [0] error rows for source table [employee] instance name [employee]
+2022-07-14 16:26:43 : INFO : (560 | READER_1_2_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16008 : Reader run completed.
+2022-07-14 16:26:43 : INFO : (560 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21077 : DBG_21077 Create joiner cache on master relation : (Thu Jul 14 16:26:43 2022)
+2022-07-14 16:26:43 : INFO : (560 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [JNRTRANS] from [178956970] to [178958000].
+2022-07-14 16:26:43 : INFO : (560 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [JNRTRANS] from [357913940] to [357914328].
+2022-07-14 16:26:43 : INFO : (560 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : CMN_1690 : Created new data file [C:\Informatica\10.1.0\server\infa_shared\Cache\PMJNR25_6_0_52.dat] and index file [C:\Informatica\10.1.0\server\infa_shared\Cache\PMJNR25_6_0_52.idx] for Joiner [JNRTRANS].
+2022-07-14 16:26:43 : INFO : (560 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21214 : DBG_21214 Finished joiner cache on master relation : (Thu Jul 14 16:26:43 2022)
+2022-07-14 16:26:43 : INFO : (560 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_department]. Total errors [0] 
+2022-07-14 16:26:43 : INFO : (560 | TRANSF_1_2_1) : (IS | INT_RepoAcademy) : node01 : DBG_21603 : DBG_21603 Open master relation cache for detail joiner : (Thu Jul 14 16:26:43 2022)
+2022-07-14 16:26:43 : INFO : (560 | TRANSF_1_2_1) : (IS | INT_RepoAcademy) : node01 : DBG_21215 : DBG_21215 Finished processing detail relation : (Thu Jul 14 16:26:43 2022)
+2022-07-14 16:26:43 : INFO : (560 | TRANSF_1_2_1) : (IS | INT_RepoAcademy) : node01 : CMN_1795 : The index cache size that would hold [50] input rows from the master for [JNRTRANS], in memory, is [2000] bytes
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8167 : Start loading table [tgt_final] at: Thu Jul 14 16:26:43 2022
+2022-07-14 16:26:43 : INFO : (560 | TRANSF_1_2_1) : (IS | INT_RepoAcademy) : node01 : CMN_1794 : The data cache size that would hold [50] input rows from the master for [JNRTRANS], in memory, is [3504] bytes
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [1] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=1 Targ Rowid=1
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "198.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Donald"
+  LAST_NAME (LAST_NAME:Char.10:): "OConnell"
+  SALARY (SALARY:Double:): "2600.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "50.00000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Shipping"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [2] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=2 Targ Rowid=2
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "199.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Douglas"
+  LAST_NAME (LAST_NAME:Char.10:): "Grant"
+  SALARY (SALARY:Double:): "2600.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "80.00000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Sales"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [3] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=3 Targ Rowid=3
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "200.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Jennifer"
+  LAST_NAME (LAST_NAME:Char.10:): "Whalen"
+  SALARY (SALARY:Double:): "4400.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "70.00000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Public Relations"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [4] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=4 Targ Rowid=4
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "201.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Michael"
+  LAST_NAME (LAST_NAME:Char.10:): "Hartstein"
+  SALARY (SALARY:Double:): "13000.00000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "310.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Programmer Analyst"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [5] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=5 Targ Rowid=5
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "202.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Pat"
+  LAST_NAME (LAST_NAME:Char.10:): "Fay"
+  SALARY (SALARY:Double:): "6000.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "220.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "NOC"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [6] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=6 Targ Rowid=6
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "203.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Susan"
+  LAST_NAME (LAST_NAME:Char.10:): "Mavris"
+  SALARY (SALARY:Double:): "6500.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "170.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Manufacturing"
+)
+
+2022-07-14 16:26:43 : INFO : (560 | TRANSF_1_2_1) : (IS | INT_RepoAcademy) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_employee]. Total errors [0] 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [7] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=7 Targ Rowid=7
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "204.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Hermann"
+  LAST_NAME (LAST_NAME:Char.10:): "Baer"
+  SALARY (SALARY:Double:): "10000.00000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "410.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Development"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [8] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=8 Targ Rowid=8
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "205.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Shelley"
+  LAST_NAME (LAST_NAME:Char.10:): "Higgins"
+  SALARY (SALARY:Double:): "12008.00000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "330.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Programmer"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [9] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=9 Targ Rowid=9
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "206.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "William"
+  LAST_NAME (LAST_NAME:Char.10:): "Gietz"
+  SALARY (SALARY:Double:): "8300.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "250.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Retail Sales"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [10] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=10 Targ Rowid=10
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "100.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Steven"
+  LAST_NAME (LAST_NAME:Char.10:): "King"
+  SALARY (SALARY:Double:): "24000.00000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "10.00000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Administration"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [11] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=11 Targ Rowid=11
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "101.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Neena"
+  LAST_NAME (LAST_NAME:Char.10:): "Kochhar"
+  SALARY (SALARY:Double:): "17000.00000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "190.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Contracting"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [12] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=12 Targ Rowid=12
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "102.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Lex"
+  LAST_NAME (LAST_NAME:Char.10:): "De Haan"
+  SALARY (SALARY:Double:): "17000.00000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "290.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Analyst"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [13] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=13 Targ Rowid=13
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "103.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Alexander"
+  LAST_NAME (LAST_NAME:Char.10:): "Hunold"
+  SALARY (SALARY:Double:): "9000.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "350.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Manager"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [14] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=14 Targ Rowid=14
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "104.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Bruce"
+  LAST_NAME (LAST_NAME:Char.10:): "Ernst"
+  SALARY (SALARY:Double:): "6000.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "420.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Customer service"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [15] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=15 Targ Rowid=15
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "105.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "David"
+  LAST_NAME (LAST_NAME:Char.10:): "Austin"
+  SALARY (SALARY:Double:): "4800.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "180.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Construction"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [16] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=16 Targ Rowid=16
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "106.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Valli"
+  LAST_NAME (LAST_NAME:Char.10:): "Pataballa"
+  SALARY (SALARY:Double:): "4800.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "30.00000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Purchasing"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [17] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=17 Targ Rowid=17
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "107.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Diana"
+  LAST_NAME (LAST_NAME:Char.10:): "Lorentz"
+  SALARY (SALARY:Double:): "4200.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "240.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Government Sales"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [18] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=18 Targ Rowid=18
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "108.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Nancy"
+  LAST_NAME (LAST_NAME:Char.10:): "Greenberg"
+  SALARY (SALARY:Double:): "12008.00000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "160.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Benefits"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [19] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=19 Targ Rowid=19
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "109.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Daniel"
+  LAST_NAME (LAST_NAME:Char.10:): "Faviet"
+  SALARY (SALARY:Double:): "9000.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "140.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Control And Credit"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [20] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=20 Targ Rowid=20
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "110.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "John"
+  LAST_NAME (LAST_NAME:Char.10:): "Chen"
+  SALARY (SALARY:Double:): "8200.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "390.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "HR"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [21] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=21 Targ Rowid=21
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "111.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Ismael"
+  LAST_NAME (LAST_NAME:Char.10:): "Sciarra"
+  SALARY (SALARY:Double:): "7700.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "370.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Tech Lead"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [22] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=22 Targ Rowid=22
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "112.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Jose "
+  LAST_NAME (LAST_NAME:Char.10:): "Manuel"
+  SALARY (SALARY:Double:): "7800.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "210.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "IT Support"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [23] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=23 Targ Rowid=23
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "113.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Luis"
+  LAST_NAME (LAST_NAME:Char.10:): "Popp"
+  SALARY (SALARY:Double:): "6900.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "110.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Accounting"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [24] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=24 Targ Rowid=24
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "114.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Den"
+  LAST_NAME (LAST_NAME:Char.10:): "Raphaely"
+  SALARY (SALARY:Double:): "11000.00000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "90.00000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Executive"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [25] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=25 Targ Rowid=25
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "115.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Alexander"
+  LAST_NAME (LAST_NAME:Char.10:): "Khoo"
+  SALARY (SALARY:Double:): "3100.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "430.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Java"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [26] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=26 Targ Rowid=26
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "116.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Shelli"
+  LAST_NAME (LAST_NAME:Char.10:): "Baida"
+  SALARY (SALARY:Double:): "2900.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "270.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Payroll"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [27] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=27 Targ Rowid=27
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "117.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Sigal"
+  LAST_NAME (LAST_NAME:Char.10:): "Tobias"
+  SALARY (SALARY:Double:): "2800.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "120.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Treasury"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [28] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=28 Targ Rowid=28
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "118.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Guy"
+  LAST_NAME (LAST_NAME:Char.10:): "Himuro"
+  SALARY (SALARY:Double:): "2600.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "320.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Programmer Analyst Trainee"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [29] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=29 Targ Rowid=29
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "119.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Karen"
+  LAST_NAME (LAST_NAME:Char.10:): "Colmenares"
+  SALARY (SALARY:Double:): "2500.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "230.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "IT Helpdesk"
+)
+
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8229 : Database errors occurred: 
+ORA-00001: unique constraint (INFOADMIN.SYS_C0012965) violated
+
+Database driver error...
+Function Name : Execute
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+Database driver error...
+Function Name : Execute Multiple
+SQL Stmt : INSERT INTO tgt_final(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID,DEPARTMENT_NAME)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8425 : ERROR: Writer execution failed.
+2022-07-14 16:26:43 : ERROR : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8114 : 
+Row # [30] in bad file
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : CMN_1053 : : Rowdata: ( RowType=0(insert) Src Rowid=30 Targ Rowid=30
+  EMPLOYEE_ID (EMPLOYEE_ID:Double:): "120.0000000000000"
+  FIRST_NAME (FIRST_NAME:Char.9:): "Matthew"
+  LAST_NAME (LAST_NAME:Char.10:): "Weiss"
+  SALARY (SALARY:Double:): "8000.000000000000"
+  DEPARTMENT_ID (DEPARTMENT_ID:Double:): "340.0000000000000"
+  DEPARTMENT_NAME (DEPARTMENT_NAME:Char.26:): "Project Manager"
+)
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8168 : End loading table [tgt_final] at: Thu Jul 14 16:26:43 2022
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8141 : 
+Commit on end-of-data  Thu Jul 14 16:26:43 2022
+===================================================
+
+WRT_8036 Target: tgt_final (Instance Name: [tgt_final])
+WRT_8038 Inserted rows - Requested: 30         Applied: 0          Rejected: 30         Affected: 0         
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8035 : Load complete time: Thu Jul 14 16:26:43 2022
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: tgt_final (Instance Name: [tgt_final])
+WRT_8038 Inserted rows - Requested: 30         Applied: 0          Rejected: 30         Affected: 0         
+
+
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2022-07-14 16:26:43 : INFO : (560 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8006 : Writer run completed.
+2022-07-14 16:26:43 : INFO : (560 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_department] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_department] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [READER_1_2_1] created for [the read stage] of partition point [SQ_employee] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_2_1] created for [the transformation stage] of partition point [SQ_employee] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [tgt_final] has completed. The total run time was insufficient for any meaningful statistics.
+
+2022-07-14 16:26:43 : INFO : (560 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Thu Jul 14 16:26:43 2022)
+2022-07-14 16:26:43 : INFO : (560 | POST-SESS) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [10].
+2022-07-14 16:26:43 : INFO : (560 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Thu Jul 14 16:26:43 2022)
+2022-07-14 16:26:43 : INFO : (560 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2022-07-14 16:26:43 : INFO : (560 | MANAGER) : (IS | INT_RepoAcademy) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.1.0\server\infa_shared\Cache\PMJNR25_6_0_52.dat] for transformation [JNRTRANS].
+2022-07-14 16:26:43 : INFO : (560 | MANAGER) : (IS | INT_RepoAcademy) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.1.0\server\infa_shared\Cache\PMJNR25_6_0_52.idx] for transformation [JNRTRANS].
+2022-07-14 16:26:44 : INFO : (560 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2022-07-14 16:26:44 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24012 : Session run completed successfully.
+2022-07-14 16:26:44 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2022-07-14 16:26:44 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6252 : Source Load Summary.
+2022-07-14 16:26:44 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : CMN_1740 : Table: [SQ_department] (Instance Name: [SQ_department])
+	 Output Rows [50], Affected Rows [50], Applied Rows [50], Rejected Rows [0]
+2022-07-14 16:26:44 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : CMN_1740 : Table: [SQ_employee] (Instance Name: [SQ_employee])
+	 Output Rows [30], Affected Rows [30], Applied Rows [30], Rejected Rows [0]
+2022-07-14 16:26:44 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6253 : Target Load Summary.
+2022-07-14 16:26:44 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : CMN_1740 : Table: [tgt_final] (Instance Name: [tgt_final])
+	 Output Rows [0], Affected Rows [0], Applied Rows [0], Rejected Rows [30]
+2022-07-14 16:26:44 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6023 : 
+===================================================
+
+2022-07-14 16:26:44 : INFO : (560 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6020 : Session [s_m3_TushitaMallik_2153714] completed at [Thu Jul 14 16:26:44 2022].

@@ -1,0 +1,31 @@
+EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY,DEPARTMENT_ID
+198,Donald,OConnell,2600,50
+199,Douglas,Grant,2600,80
+200,Jennifer,Whalen,4400,70
+201,Michael,Hartstein,13000,310
+202,Pat,Fay,6000,220
+203,Susan,Mavris,6500,170
+204,Hermann,Baer,10000,410
+205,Shelley,Higgins,12008,330
+206,William,Gietz,8300,250,
+100,Steven,King,24000,10
+101,Neena,Kochhar,17000,190
+102,Lex,De Haan,17000,290
+103,Alexander,Hunold,9000,350
+104,Bruce,Ernst,6000,420
+105,David,Austin,4800,180
+106,Valli,Pataballa,4800,30
+107,Diana,Lorentz,4200,240
+108,Nancy,Greenberg,12008,160
+109,Daniel,Faviet,9000,140
+110,John,Chen,8200,390
+111,Ismael,Sciarra,7700,370
+112,Jose ,Manuel,7800,210
+113,Luis,Popp,6900,110
+114,Den,Raphaely,11000,90
+115,Alexander,Khoo,3100,430
+116,Shelli,Baida,2900,270
+117,Sigal,Tobias,2800,120
+118,Guy,Himuro,2600,320
+119,Karen,Colmenares,2500,230
+120,Matthew,Weiss,8000,340
