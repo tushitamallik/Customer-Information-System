@@ -7,7 +7,7 @@ The Customer Information System is an independent software system developed to c
 3. Loaded and stored transformed data in designated databases and flat files.
 
 ## Functional Requirement
-Create the mapping to load the target from the source file after applying all the logics that is mentioned in the mapping document.
+Create the mapping to load the target from the source file after applying all the logic that is mentioned in the mapping document.
 
 ## Table of Content
 1. Source File
@@ -16,3 +16,8 @@ Create the mapping to load the target from the source file after applying all th
 4. Session Logs
 5. Workflow XMLs
 6. Documentation
+
+## Platform
+Informatica PowerCenter
+
+## Transformations Applied
