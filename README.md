@@ -58,3 +58,6 @@ Informatica PowerCenter
 | NO_OF_ITEM    | NUMBER(5)   |
 
 ## Transformations Applied
+
+| **Target Table/File name** |	**Target Field names**	| **Target DataType** | 	**Description** |	 **Mapping Logic** |	**Source File Name** |	**Source File Column Names** | 	**Source Data Type** |
+| ------------- | ----------- | ------------- | ----------- | ------------- | ----------- | ------------- | ----------- |
