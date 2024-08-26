@@ -22,6 +22,7 @@ Informatica PowerCenter
 
 ## Source 
 1. SAPP_CUSTOMER
+   
 | FIELD_NAME    | DATA_TYPES  |
 | ------------- | ----------- |
 | FIRST_NAME    | STRING(40)  |
@@ -38,6 +39,7 @@ Informatica PowerCenter
 | CUST_EMAIL    | STRING(40)  |
 
 3. SAPP_ITEM
+   
 | FIELD_NAME  | DATA_TYPES  |
 | ----------- | ----------- |
 | ITEM_CODE   | NUMBER(10)  |
@@ -45,6 +47,7 @@ Informatica PowerCenter
 | ITEM_PRICE  | NUMBER(9)   |
 
 5. SAPP_CUST_ITEM
+   
 | FIELD_NAME    | DATA_TYPES  |
 | ------------- | ----------- |
 | FIRST_NAME    | STRING(40)  |
