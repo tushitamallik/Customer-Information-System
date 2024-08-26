@@ -20,4 +20,32 @@ Create the mapping to load the target from the source file after applying all th
 ## Platform
 Informatica PowerCenter
 
+## Source 
+1. SAPP_CUSTOMER
+| FIRST_NAME | STRING(40) |
+| MIDDLE_NAME | STRING(40) |
+| LAST_NAME | STRING(40) |
+| SSN | STRING(9) |
+| APT_NO | STRING(7) |
+| STREET_NAME | STRING(30) |
+| CUST_CITY  | STRING(30)  |
+| CUST_STATE  | STRING(30)  |
+| CUST_COUNTRY  | STRING(30)  |
+| CUST_ZIP  | STRING(7)  |
+| CUST_PHONE  | NUMBER(10)  |
+| CUST_EMAIL | STRING(40)  |
+
+3. SAPP_ITEM
+| ITEM_CODE | NUMBER(10) |
+| ITEM_NAME | STRING(30) |
+| ITEM_PRICE | NUMBER(9) |
+
+5. SAPP_CUST_ITEM
+| FIRST_NAME | STRING(40) |
+| MIDDLE_NAME | STRING(40) |
+| LAST_NAME | STRING(40) |
+| CUST_SSN | STRING(9) |
+| ITEM_CODE | NUMBER(10) |
+| NO_OF_ITEM | NUMBER(5) |
+
 ## Transformations Applied
